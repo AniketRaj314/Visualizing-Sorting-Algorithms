@@ -2,7 +2,7 @@ var width, height, size, snake, food, scale, iloop, jloop, f, s, steps;
 function setup(){
   width = 1000;
   height = 600;
-  size = 100;
+  size = 50;
   createCanvas(width, height);
   bars = [];
   for(var i = 0, x = 0; i < width/size; i++, x += size){
